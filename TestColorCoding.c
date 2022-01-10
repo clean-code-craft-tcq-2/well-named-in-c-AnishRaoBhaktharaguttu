@@ -26,6 +26,7 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 
-void testPrintColorCode(){
+void testPrintColorCode()
+{
     printColorCodingPair();
 }
