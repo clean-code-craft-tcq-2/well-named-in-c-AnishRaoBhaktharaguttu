@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
-#define totalColorsInMajorAndMinor (5u)
+#define MAJOR_AND_MINOR_COLORS (5u)
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-const char* MajorColorNames[5];
-const char* MinorColorNames[5];
+const char* majorColorNames[5];
+const char* minorColorNames[5];
 
 int numberOfMajorColors;
 int numberOfMinorColors;
@@ -20,6 +20,6 @@ typedef struct {
 
 //Method definitions
 
-ColorPair GetColorFromPairNumber(int pairNumber);
-void ColorPairToString(const ColorPair* colorPair, char* buffer);
-int GetPairNumberFromColor(const ColorPair* colorPair);
+ColorPair getColorFromPairNumber(int pairNumber);
+void colorPairToString(const ColorPair* colorPair, char* buffer);
+int getPairNumberFromColor(const ColorPair* colorPair);
