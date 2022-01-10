@@ -12,8 +12,8 @@ void printColorCodingPair(void)
     {
         for(minorColorVar = 0; minorColorVar < totalColorsInMajorAndMinor; minorColorVar++)
         {
-             printf("\n Major Colour Name : %s  ", MajorColourNamesString[majorColorVar]);
-             printf("\n Minor Colour Name : %s  ", MinorColourNamesString[minorColorVar]);
+             printf("\n Major Colour Name : %s  ", MajorColourNames[majorColorVar]);
+             printf("\n Minor Colour Name : %s  ", MinorColourNames[minorColorVar]);
              printf("\n Colour Code : %d  \n", colourCode);
              colourCode++;
         }
