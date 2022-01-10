@@ -10,7 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc -Wall -Wextra -o testchecker *.c
+    - run: gcc -c -o ColorCodingUtility.o ColorCodingUtility.c
+    - run: gcc -c -o ColorCodingVariableDefinitions.o ColorCodingVariableDefinitions.c
+    - run: gcc -Wall -Wextra -o testchecker *.c
       
     - name: run
       run: ./testchecker
