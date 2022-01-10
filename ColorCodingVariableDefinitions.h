@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#define totalColorsInMajorAndMinor (5u)
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
