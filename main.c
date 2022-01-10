@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
+extern "C" {
 #include "TestColorCoding.h"
-
+}
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
