@@ -1,3 +1,5 @@
+// Test methods to test the color coding feature
+#include <TestColorCoding.h>
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
