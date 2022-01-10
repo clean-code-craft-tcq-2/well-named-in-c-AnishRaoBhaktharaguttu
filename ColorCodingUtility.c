@@ -4,8 +4,8 @@
 
 void printColorCodingPair(void)
 {
-    int majorColorVar = 0;
-    int minorColorVar = 0;
+    unsigned int majorColorVar = 0;
+    unsigned int minorColorVar = 0;
     int colourCode = 1;
   
     for(majorColorVar = 0; majorColorVar < MAJOR_AND_MINOR_COLORS ; majorColorVar++)
