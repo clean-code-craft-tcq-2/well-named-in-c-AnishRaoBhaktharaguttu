@@ -12,6 +12,8 @@ jobs:
     - name: build
     - run: gcc -c -o ColorCodingUtility.o ColorCodingUtility.c
     - run: gcc -c -o ColorCodingVariableDefinitions.o ColorCodingVariableDefinitions.c
+    - run: gcc -c -o TestColorCoding.o TestColorCoding.c
+    - run: gcc -c -o main.o main.c
     - run: gcc -Wall -Wextra -o testchecker *.c
       
     - name: run
